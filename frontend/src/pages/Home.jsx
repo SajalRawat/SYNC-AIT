@@ -4,6 +4,9 @@ import './Home.css'
 import Logocollections from "../assets/clblogos/clublogos.svg"
 
 export default function Home() {
+
+	/* 
+	Dont set the loader before final deployment. It wastes time and annoys me
 	const [loading, setLoading] = useState(true)
 
 	useEffect(() => {
@@ -14,6 +17,7 @@ export default function Home() {
 	if (loading) {
 		return <Loader />
 	}
+	*/
 
 	return (
 		<section id="home" className="home-hero">
